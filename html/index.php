@@ -9,25 +9,7 @@
 </head>
 
 <body>
-	<p>Choose an ip address from wherer you would like to send the files</p>
-
-	<?php
-	$file = "../ip_addr.txt";
-	$fp = fopen($file,"r");
-	if (!$fp) {
-	    echo "File \"ip_addr.txt\"not found!";
-	}
-
-	if($fp){
-		echo "<ul>";
-		while (($line = fgets($fp)) !== false){
-			$ip = trim($line);
-			echo "<li><a href=\"http://$ip/\">$ip</a></li>";
-		}
-		echo "</ul>";
-		fclose($fp);
-	}
-	?>
+	<p>Scan the qr code on moobile</p>
 </body>
 
 </html>
