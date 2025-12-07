@@ -10,6 +10,7 @@
 
 <body>
 	<p>Scan the qr code on moobile</p>
+	<img src="qr.php" alt="QR code">
 </body>
 
 </html>
